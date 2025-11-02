@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-03-29T18:21:37.862Z</updated>
+  <updated>2025-11-02T09:16:54.469Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我整理了一些Marp主题</title>
+    <link href="http://example.com/2025/11/02/marp-themes/"/>
+    <id>http://example.com/2025/11/02/marp-themes/</id>
+    <published>2025-11-01T16:00:00.000Z</published>
+    <updated>2025-11-02T09:16:54.469Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近经常用zotero看论文顺便写markdown笔记，然后每周要做个小汇报，每次现做ppt还是太麻烦了，于是偷点懒直接把markdown转成ppt，最后选择了marp来做这个工作（毕竟slides还是有点难上手）。</p><p>本身只是抱着自己使用的念头整理了很多大佬的marp css样式，仅限在本地个人使用，结果marp只能使用相对路径导入（绝对路径存在问题），又没有其他一劳永逸的办法，所以干脆托管到github上，方便自己和大家使用。</p><p>因此，如果你也想使用这些主题，可以移步到我整理的一个简要说明：<a class="link" href="https://everettlineo.github.io/marp_themes/README">Marp 主题合集<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p><p>因为时间比较仓促，所以我也是让LLM来辅助我写的一些说明文档。已经按照样式原作者的<a class="link" href="https://everettlineo.github.io/marp_themes/license/NOTICE">license<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>加以沿用，尊重产权（但是有些css原作者好像并没有明确标注，因此如果有任何问题，可以通过邮箱联系我，如有不妥之处，还请多多见谅）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近经常用zotero看论文顺便写markdown笔记，然后每周要做个小汇报，每次现做ppt还是太麻烦了，于是偷点懒直接把markdown转成ppt，最后选择了marp来做这个工作（毕竟slides还是有点难上手）。&lt;/p&gt;
+&lt;p&gt;本身只是抱着自己使用的念头整理了很多大佬的</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="http://example.com/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="模板" scheme="http://example.com/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+    <category term="vscode" scheme="http://example.com/tags/vscode/"/>
+    
+    <category term="marp" scheme="http://example.com/tags/marp/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
