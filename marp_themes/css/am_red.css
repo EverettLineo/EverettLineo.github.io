@@ -1,9 +1,10 @@
-@charset "UTF-8";
 /* @theme am_red */
 /* @theme am_template */
+@charset "UTF-8";
 @import 'https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css';
 @import url(https://fonts.bunny.net/css?family=charm:700);
 @auto-scaling true;
+
 :root {
   --font-family-main: "Latin Modern Math", "Adobe Garamond", "方正宋刻本秀楷简体", "Calibri", "楷体", "华文中宋", "楷体", "霞鹜文楷 屏幕阅读版";
   --font-family-title: "Optima LT Medium", "Arial", "方正苏新诗柳楷简体", "黑体";
@@ -64,11 +65,11 @@ ul {
   padding-left: 35px;
 }
 
-ul > li > ul > li {
+ul>li>ul>li {
   font-size: 0.9rem;
 }
 
-ul > li > ul > li > ul > li {
+ul>li>ul>li>ul>li {
   font-size: 0.85rem;
 }
 
@@ -101,7 +102,7 @@ blockquote strong {
   font-family: var(--font-family-main);
 }
 
-blockquote > p::before {
+blockquote>p::before {
   color: var(--color-much);
   padding-right: 2%;
   content: "\f10d";
@@ -152,7 +153,7 @@ footer {
   justify-content: space-between;
 }
 
-footer > em {
+footer>em {
   font-family: var(--font-family-footer);
   font-size: var(--font-size-footer);
   letter-spacing: 1px;
@@ -348,14 +349,14 @@ section.cover_e strong {
   color: var(--color-main);
 }
 
-section.cover_e footer > img {
+section.cover_e footer>img {
   transform: scale(1.2);
   background-color: rgba(255, 255, 255, 0);
   background-blend-mode: lighten;
   filter: brightness(2000%) grayscale(60%);
 }
 
-section.cover_e header > img {
+section.cover_e header>img {
   transform: scale(0.88);
   background-color: rgba(255, 255, 255, 0);
   background-blend-mode: lighten;
@@ -598,8 +599,8 @@ section.toc_b {
   background: linear-gradient(to right, white 6%, var(--color-coverbg) 6% 30%, white 30%);
 }
 
-section.toc_b > ul,
-section.toc_b > ol {
+section.toc_b>ul,
+section.toc_b>ol {
   list-style-type: none;
   display: table;
   align-items: center;
@@ -679,8 +680,8 @@ section.col1_ol_sq p {
   margin-left: -1.5%;
 }
 
-section.col1_ol_sq > ul,
-section.col1_ol_sq > ul {
+section.col1_ol_sq>ul,
+section.col1_ol_sq>ul {
   list-style-type: none;
   display: table;
   align-items: center;
@@ -729,8 +730,8 @@ section.col1_ol_ci p {
   margin-left: -1.5%;
 }
 
-section.col1_ol_ci > ul,
-section.col1_ol_ci > ol {
+section.col1_ol_ci>ul,
+section.col1_ol_ci>ol {
   list-style-type: none;
   display: table;
   align-items: center;
@@ -1319,26 +1320,26 @@ section.bq-black blockquote {
   background-color: white;
 }
 
-section.bq-purple blockquote p > strong {
+section.bq-purple blockquote p>strong {
   color: var(--color-main);
   font-size: 0.9rem;
 }
 
-section.bq-blue blockquote > p::before,
-section.bq-red blockquote > p::before,
-section.bq-green blockquote > p::before,
-section.bq-purple blockquote > p::before,
-section.bq-black blockquote > p::before {
+section.bq-blue blockquote>p::before,
+section.bq-red blockquote>p::before,
+section.bq-green blockquote>p::before,
+section.bq-purple blockquote>p::before,
+section.bq-black blockquote>p::before {
   padding-right: 0px;
   content: "";
   color: white;
 }
 
-section.bq-blue blockquote > p:nth-child(1),
-section.bq-red blockquote > p:nth-child(1),
-section.bq-green blockquote > p:nth-child(1),
-section.bq-purple blockquote > p:nth-child(1),
-section.bq-black blockquote > p:nth-child(1) {
+section.bq-blue blockquote>p:nth-child(1),
+section.bq-red blockquote>p:nth-child(1),
+section.bq-green blockquote>p:nth-child(1),
+section.bq-purple blockquote>p:nth-child(1),
+section.bq-black blockquote>p:nth-child(1) {
   margin-bottom: -1px;
   line-height: 2rem;
   padding: 0.5% 0.5% 0.5% 1.5%;
@@ -1346,60 +1347,60 @@ section.bq-black blockquote > p:nth-child(1) {
   font-size: 1.03rem;
 }
 
-section.bq-blue blockquote > p:not(:nth-child(1)),
-section.bq-red blockquote > p:not(:nth-child(1)),
-section.bq-green blockquote > p:not(:nth-child(1)),
-section.bq-purple blockquote > p:not(:nth-child(1)),
-section.bq-black blockquote > p:not(:nth-child(1)) {
+section.bq-blue blockquote>p:not(:nth-child(1)),
+section.bq-red blockquote>p:not(:nth-child(1)),
+section.bq-green blockquote>p:not(:nth-child(1)),
+section.bq-purple blockquote>p:not(:nth-child(1)),
+section.bq-black blockquote>p:not(:nth-child(1)) {
   padding: 1% 2%;
   background-color: rgb(228, 234, 246);
 }
 
-section.bq-blue blockquote > p:nth-child(1) {
+section.bq-blue blockquote>p:nth-child(1) {
   background-color: rgb(129, 161, 193);
 }
 
-section.bq-red blockquote > p:nth-child(1) {
+section.bq-red blockquote>p:nth-child(1) {
   background-color: rgb(191, 97, 106);
 }
 
-section.bq-green blockquote > p:nth-child(1) {
+section.bq-green blockquote>p:nth-child(1) {
   background-color: rgb(172, 206, 141);
 }
 
-section.bq-purple blockquote > p:nth-child(1) {
+section.bq-purple blockquote>p:nth-child(1) {
   background-color: rgb(180, 142, 173);
 }
 
-section.bq-black blockquote > p:nth-child(1) {
+section.bq-black blockquote>p:nth-child(1) {
   background-color: rgb(67, 76, 94);
 }
 
-section.bq-blue blockquote > p:nth-child(1)::before {
+section.bq-blue blockquote>p:nth-child(1)::before {
   content: "\f518";
   padding-right: 2%;
   font-family: "FontAwesome";
 }
 
-section.bq-red blockquote > p:nth-child(1)::before {
+section.bq-red blockquote>p:nth-child(1)::before {
   content: "\f0eb";
   padding-right: 2%;
   font-family: "FontAwesome";
 }
 
-section.bq-green blockquote > p:nth-child(1)::before {
+section.bq-green blockquote>p:nth-child(1)::before {
   content: "\e0bb";
   padding-right: 2%;
   font-family: "FontAwesome";
 }
 
-section.bq-purple blockquote > p:nth-child(1)::before {
+section.bq-purple blockquote>p:nth-child(1)::before {
   content: "\f7e4";
   padding-right: 2%;
   font-family: "FontAwesome";
 }
 
-section.bq-black blockquote > p:nth-child(1)::before {
+section.bq-black blockquote>p:nth-child(1)::before {
   content: "\f5ad";
   padding-right: 2%;
   font-family: "FontAwesome";
@@ -1438,7 +1439,7 @@ section.lastpage .icons {
   grid-area: icons;
 }
 
-section.lastpage div > ul {
+section.lastpage div>ul {
   font-family: var(--font-family-main);
   width: 100%;
   display: grid;
@@ -1448,11 +1449,11 @@ section.lastpage div > ul {
   list-style: none;
 }
 
-section.lastpage ul > li > ul > li {
+section.lastpage ul>li>ul>li {
   margin-left: -120px;
 }
 
-section.lastpage div > ul > li > ul > li {
+section.lastpage div>ul>li>ul>li {
   list-style: none;
 }
 
@@ -1491,16 +1492,16 @@ section.navbar header {
   white-space: pre;
 }
 
-section.navbar header > em,
-section.navbar header > strong,
-section.navbar header > em > strong {
+section.navbar header>em,
+section.navbar header>strong,
+section.navbar header>em>strong {
   font-style: normal;
   font-size: 0.9rem;
   font-weight: normal;
   color: var(--color-navbar-font);
 }
 
-section.navbar header > strong {
+section.navbar header>strong {
   border: 1px solid white;
   border-radius: 12px;
   padding: 0px 15px 5px 15px;
@@ -1512,7 +1513,7 @@ section.navbar header::after {
   content: "";
 }
 
-section.navbar header > em > strong {
+section.navbar header>em>strong {
   display: block;
   width: 400px;
   text-align: left;
@@ -1569,12 +1570,12 @@ tbody:last-child {
   border-bottom: 3px solid var(--color-main);
 }
 
-table > thead > tr > th,
-table > thead > tr > td,
-table > tbody > tr > th,
-table > tbody > tr > td,
-table > tfoot > tr > th,
-table > tfoot > tr > td {
+table>thead>tr>th,
+table>thead>tr>td,
+table>tbody>tr>th,
+table>tbody>tr>td,
+table>tfoot>tr>th,
+table>tfoot>tr>td {
   border: 0px solid white;
 }
 
@@ -1662,10 +1663,10 @@ section.fixedtitleB {
   grid-template-areas: "slideheading" "content";
 }
 
-section.fixedtitleB > h2,
-section.fixedtitleB > h3,
-section.fixedtitleB > h4,
-section.fixedtitleB > h5 {
+section.fixedtitleB>h2,
+section.fixedtitleB>h3,
+section.fixedtitleB>h4,
+section.fixedtitleB>h5 {
   grid-area: slideheading;
   position: absolute;
   padding: 10px;
@@ -1695,10 +1696,10 @@ section.footnote .tdiv {
   justify-content: start;
 }
 
-section.footnote .tdiv > h2,
-section.footnote .tdiv > h3,
-section.footnote .tdiv > h4,
-section.footnote .tdiv > h5 {
+section.footnote .tdiv>h2,
+section.footnote .tdiv>h3,
+section.footnote .tdiv>h4,
+section.footnote .tdiv>h5 {
   margin-bottom: 1rem;
   margin-top: -1rem;
 }
@@ -1716,11 +1717,11 @@ section.footnote .bdiv::before {
   margin-bottom: 1em;
 }
 
-section.tinytext > p,
-section.tinytext > ul,
-section.tinytext > ol,
-section.tinytext > table,
-section.tinytext > blockquote {
+section.tinytext>p,
+section.tinytext>ul,
+section.tinytext>ol,
+section.tinytext>table,
+section.tinytext>blockquote {
   font-size: 80%;
 }
 
@@ -1740,11 +1741,11 @@ section.tinytext pre {
   font-size: 70%;
 }
 
-section.smalltext > p,
-section.smalltext > ul,
-section.smalltext > ol,
-section.smalltext > table,
-section.smalltext > blockquote {
+section.smalltext>p,
+section.smalltext>ul,
+section.smalltext>ol,
+section.smalltext>table,
+section.smalltext>blockquote {
   font-size: 90%;
 }
 
@@ -1764,11 +1765,11 @@ section.smalltext pre {
   font-size: 80%;
 }
 
-section.largetext > p,
-section.largetext > ul,
-section.largetext > ol,
-section.largetext > table,
-section.largetext > blockquote {
+section.largetext>p,
+section.largetext>ul,
+section.largetext>ol,
+section.largetext>table,
+section.largetext>blockquote {
   font-size: 115%;
 }
 
@@ -1788,11 +1789,11 @@ section.largetext pre {
   font-size: 105%;
 }
 
-section.hugetext > p,
-section.hugetext > ul,
-section.hugetext > ol,
-section.hugetext > table,
-section.hugetext > blockquote {
+section.hugetext>p,
+section.hugetext>ul,
+section.hugetext>ol,
+section.hugetext>table,
+section.hugetext>blockquote {
   font-size: 130%;
 }
 
@@ -1828,3 +1829,5 @@ section.hugetext pre {
   --filter-c: brightness(0%) contrast(60%) grayscale(80%);
   --filter-e: brightness(0%) contrast(70%) grayscale(100%);
 }
+
+/*# sourceMappingURL=am_red.css.map */
