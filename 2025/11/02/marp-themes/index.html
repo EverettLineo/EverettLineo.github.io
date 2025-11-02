@@ -458,7 +458,7 @@
                 Gitalk && new Gitalk({
                     clientID: 'Ov23lisUuSAas7wpqdh0',
                     clientSecret: '8a8f96871c640a123bd8c282764b64371ce79f78',
-                    repo: 'EverettLineo.github.io',
+                    repo: 'Gitalk4Blog',
                     owner: 'EverettLineo',
                     admin: ['EverettLineo'],
                     id: __gitalk__pathname,
@@ -810,6 +810,21 @@
 
 
 	
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 
 </html>
