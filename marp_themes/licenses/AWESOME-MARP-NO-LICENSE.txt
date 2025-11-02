@@ -1,0 +1,15 @@
+Investigation note for favourhong/Awesome-Marp
+
+Checked on: 2025-11-02
+Upstream URL: https://github.com/favourhong/Awesome-Marp
+
+Result: No top-level LICENSE file or explicit license statement was found in the upstream repository at the time of checking.
+
+Implication: Because the upstream project does not declare a license, the code is effectively "All rights reserved" by default; you should not assume permission to redistribute, modify, or relicense the files beyond what is allowed by applicable law.
+
+Recommended next steps:
+- Contact the upstream author (https://github.com/favourhong) and ask for an explicit license grant or permission to reuse the themes under a specific license.
+- If the author replies with a license, add a copy of that license to `licenses/` and update `licenses/NOTICE.md` to reflect the license and date.
+- If you need to redistribute these themes and cannot obtain permission, consider removing them or replacing them with clearly-licensed alternatives.
+
+This file is a local record of the license-check and does not substitute for legal advice.

@@ -1,0 +1,14 @@
+Mulan Permissive Software License, Version 2.0 (Mulan PSL v2)
+
+This file indicates that the original contributions and modifications made by the owner/maintainer of this repository (the files that are authored by the maintainer) are offered under the terms of the Mulan Permissive Software License, Version 2.0.
+
+Full license text and terms:
+https://opensource.org/licenses/MulanPSL-2.0
+
+SPDX identifier: MulanPSL-2.0
+
+IMPORTANT:
+- Third-party files included in this repository retain their original licenses and copyright notices. Those files are explicitly listed in `licenses/NOTICE.md` and by the individual license files in this directory. Do NOT treat third-party files as re-licensed under Mulan PSL v2 unless their original license explicitly permits relicensing.
+- This file applies ONLY to content that the repository owner explicitly indicates as their own contribution (for example files that the README marks as "modified by 本仓库" or new files created by the maintainer).
+
+If you are unsure about the license of a specific file in this repository, please consult `licenses/NOTICE.md` or the original upstream repository referenced there.

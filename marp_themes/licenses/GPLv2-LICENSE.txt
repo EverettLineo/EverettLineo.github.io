@@ -1,0 +1,9 @@
+GNU GENERAL PUBLIC LICENSE
+Version 2, June 1991
+
+Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+
+Full text: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+SPDX: GPL-2.0-only
+
+Note: Some references in the `beam` theme comment header point to the beamer project's licensing (GPLv2 for parts of beamer). Consult the original beamer project if you need to trace exact origins.

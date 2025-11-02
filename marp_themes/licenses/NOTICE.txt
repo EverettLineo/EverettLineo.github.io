@@ -1,0 +1,69 @@
+licenses/NOTICE for marp_themes collection
+
+This repository collects various Marp CSS themes from different upstream authors. Below is the current inventory (as found in the workspace) with source and license information. You must follow the original license terms for each third-party component.
+
+Known third-party components and licenses (partial list):
+
+- beam.css
+  - Source: rnd195/my-marp-themes
+  - Declared license in header: GNU GPLv3
+  - Notes: also references the LaTeX beamer license (GPLv2) for some parts that inspired the theme
+  - License file: `licenses/GPLv3-LICENSE.txt` (upstream full license at <https://www.gnu.org/licenses/gpl-3.0.en.html>)
+
+- border.css, gradient.css, graph_paper.css
+  - Source: rnd195/my-marp-themes
+  - Declared license in header: MIT
+  - License file: `licenses/MIT-LICENSE.txt`
+
+- dracula.css
+  - Source: dracula/marp
+  - Commonly MIT-licensed; check upstream for exact text
+  - License file: `licenses/MIT-LICENSE.txt`
+
+- nord.css
+  - Source: mastern2k3/marpit-nord-theme
+  - Commonly MIT-licensed; check upstream for exact text
+  - License file: `licenses/MIT-LICENSE.txt`
+
+- am_*.css (am_blue.css, am_brown.css, am_dark.css, am_green.css, am_purple.css, am_red.css, am_template.css)
+  - Source: favourhong/Awesome-Marp
+  - Upstream check (2025-11-02): I checked the upstream repository at <https://github.com/favourhong/Awesome-Marp> and could not find a top-level `LICENSE` file nor a clear license statement in the repository root. Therefore, as of the check date, the upstream project does NOT include an explicit license ("no license specified").
+  - Implication: In the absence of an explicit license, you do NOT have permissive redistribution rights from upstream. Treat these files as "no license specified" and do NOT relicense or redistribute them beyond what is permitted by law (consult counsel if needed).
+  - Recommended action: Contact the upstream author (favourhong) to request permission or an explicit license declaration. If the author provides a license, add the license text to `licenses/` and update this NOTICE.
+
+- A4.css
+  - Source: pn11/marp-A4-theme
+  - Please check upstream for license (often MIT or CC-like). If present, include or mirror the license here.
+
+- haskell.css
+  - Source: matsubara0507/marp-themes
+  - Check upstream for license text.
+
+- tapioca24.css
+  - Source: tapioca24/marp-themes
+  - Check upstream for license text.
+
+Other themes in this collection may have varying license information. When in doubt:
+
+1. Do NOT relicense third-party files. They keep their original licenses.
+2. Add or preserve the original license headers in each file when redistributing.
+3. If you modified a third-party file, include a brief changelog entry in that file and ensure the original copyright and license remain.
+
+This NOTICE file is intended as a human-readable index; it does not substitute for the original licenses. For full legal terms consult the license files listed in `licenses/` or the upstream repositories.
+
+---
+
+Added local copies of upstream LICENSE files (fetched 2025-11-02):
+
+- `licenses/LICENSE-rnd195-MIT.txt` — MIT (rnd195/my-marp-themes) — copied from upstream raw LICENSE (2025-11-02)
+- `licenses/LICENSE-pn11-MIT.txt` — MIT (pn11/marp-A4-theme) — copied from upstream raw LICENSE (2025-11-02)
+- `licenses/LICENSE-dracula-MIT.txt` — MIT (dracula/marp) — copied from upstream raw LICENSE (2025-11-02)
+- `licenses/LICENSE-matsubara-MIT.txt` — MIT (matsubara0507/marp-themes) — copied from upstream raw LICENSE (2025-11-02)
+- `licenses/LICENSE-ttyskg-MIT.txt` — MIT (ttyskg/marp-themes) — copied from upstream raw LICENSE (2025-11-02)
+
+Status of other upstreams checked (2025-11-02):
+
+- `favourhong/Awesome-Marp` — no top-level LICENSE detected; see `licenses/AWESOME-MARP-NO-LICENSE.txt`.
+- `tapioca24/marp-themes`, `mastern2k3/marpit-nord-theme`, `2uu/marp-themes` — raw LICENSE at common paths returned 404; recommend manual upstream review or contacting authors. If you want, I can continue exploring alternative branches/paths for these repositories.
+
+If you find or receive a license from an upstream author, add a copy under `licenses/` and update this NOTICE with the date and source.
