@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-11-02T09:16:54.469Z</updated>
+  <updated>2026-01-05T06:32:04.269Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2026/01/05/network-review/"/>
+    <id>http://example.com/2026/01/05/network-review/</id>
+    <published>2026-01-05T06:28:12.662Z</published>
+    <updated>2026-01-05T06:32:04.269Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="数据通信与计算机网络整理与复习"><a href="#数据通信与计算机网络整理与复习" class="headerlink" title="数据通信与计算机网络整理与复习"></a>数据通信与计算机网络整理与复习</h1><p>耗时半个多月，终于把数据通信与计算机网络的内容整理完毕，记录在此以备后续复习。如有错误，欢迎指正。<br>（由EverettLineon整理，仅供个人非商业用途）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;数据通信与计算机网络整理与复习&quot;&gt;&lt;a href=&quot;#数据通信与计算机网络整理与复习&quot; class=&quot;headerlink&quot; title=&quot;数据通信与计算机网络整理与复习&quot;&gt;&lt;/a&gt;数据通信与计算机网络整理与复习&lt;/h1&gt;&lt;p&gt;耗时半个多月，终于把数据通信与计算机</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>我整理了一些Marp主题</title>
